@@ -40,6 +40,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname , '/public'))); 
 app.use('/login',loginRouter); 
 app.use('/signup',signupRouter); 
+// q3. in the route module the spelling of the homeRouter has been changed into homeroute.js 
 app.use('/home',homeRouter); 
 app.use('/books',booksRouter); 
 app.use('/authors',authorsRouter); 
