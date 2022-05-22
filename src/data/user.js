@@ -1,4 +1,4 @@
-//part 1 point 4 - ariable users spelling mistake in the user.js file in the src/data
+//part 1 point 4 - variable users spelling mistake in the user.js file in the src/data
 
 var user=[{
     "id":1,
