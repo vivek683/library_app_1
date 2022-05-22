@@ -1,7 +1,7 @@
 const express = require('express'); 
 const path = require ('path'); 
 const cors = require('cors');
-// q2. The bodyparser module has been imported into the javascript file.
+// part 1 point 2 - The bodyparser module has been imported into the javascript file.
 const bodyParser = require('body-parser');
 
 const nav= [
@@ -33,7 +33,7 @@ const app = new express;
 
 app.set('views','./src/views'); 
 app.set('view engine','ejs'); 
-// q7. the cors function is used
+// part 2 point 2 - the cors function is used
 app.use(cors());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
@@ -53,7 +53,7 @@ app.get('/',function(req,res){
 
 
 
-//Q5. The console statement changed to server 5000.
+//part 1 point 5 -  The console statement changed to server 5000.
 
 app.listen(5000,()=>{
     console.log("Server Ready on 5000");
