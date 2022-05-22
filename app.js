@@ -52,7 +52,7 @@ app.get('/',function(req,res){
 
 
 
-
+//Q5. The console statement changed to server 5000.
 
 app.listen(5000,()=>{
     console.log("Server Ready on 5000");
