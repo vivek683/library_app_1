@@ -1,4 +1,4 @@
-
+q8. // the images key spelling has been changed to image
 var authors = 
 [
     {
