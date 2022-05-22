@@ -33,7 +33,7 @@ const app = new express;
 
 app.set('views','./src/views'); 
 app.set('view engine','ejs'); 
-
+// q7. the cors function is used
 app.use(cors());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
